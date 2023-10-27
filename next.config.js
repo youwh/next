@@ -7,6 +7,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  basePath: '/next',
 };
 
 module.exports = nextConfig;
