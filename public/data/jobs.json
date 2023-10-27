@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "location": "London",
+    "salary": "£65,000",
+    "description": "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    "link": "",
+    "datePosted": "Posted on 29/08/2023",
+    "skills": ["Python"],
+    "type": 0
+  },
+  {
+    "id": 2,
+    "title": "Software Engineer",
+    "location": "London",
+    "salary": "£65,000",
+    "description": "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    "link": "",
+    "datePosted": "Posted on 29/08/2023",
+    "skills": ["Python"],
+    "type": 1
+  },
+  {
+    "id": 3,
+    "title": "Software Engineer",
+    "location": "London",
+    "salary": "£65,000",
+    "description": "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    "link": "",
+    "datePosted": "Posted on 29/08/2023",
+    "skills": ["Python"],
+    "type": 2
+  },
+  {
+    "id": 4,
+    "title": "Software Engineer",
+    "location": "London",
+    "salary": "£65,000",
+    "description": "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    "link": "",
+    "datePosted": "Posted on 29/08/2023",
+    "skills": ["Python"],
+    "type": 0
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "colorize.languages": [
+    "typescript",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "css",
+    "scss",
+    "json"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  }
+}

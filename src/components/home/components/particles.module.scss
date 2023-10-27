@@ -1,0 +1,39 @@
+/*** Particle Animation ***/
+/*** https://codepen.io/tutsplus/pen/MrjYJK ***/
+
+$colors: #0e2152, #ffffff, #fcdf69, #f99d76; // Define an array of colors
+
+.particle-container {
+  position: absolute;
+  // position: relative;
+  // height: 100%;
+  z-index: -1;
+}
+
+.particle {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+}
+
+@for $i from 1 through 30 {
+  $randomColorIndex: random(length($colors)); // Select a random index from the colors array
+  $randomColor: nth($colors, $randomColorIndex); // Get the color at the random index
+
+  @keyframes particle-animation-#{$i} {
+    100% {
+      transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+    }
+  }
+
+  .particle:nth-child(#{$i}) {
+    animation: particle-animation-#{$i} 60s infinite;
+    $size: random(150) + 100 + px;
+    opacity: (random(10) + 90) / 100;
+    height: $size;
+    width: $size;
+    animation-delay: -$i * 0.2s;
+    transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+    background: $randomColor; // Use the randomly selected color
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/home/8e59b1d2d4d6582004a119f75c020cd6.jpg",
+    "link": "",
+    "title": "Software engineering"
+  },
+  {
+    "id": 2,
+    "img": "/assets/home/84bdcbe0f17f845abe40d85430b86732.jpg",
+    "link": "",
+    "title": "DevOps"
+  },
+  {
+    "id": 3,
+    "img": "/assets/home/8e59b1d2d4d6582004a119f75c020cd6.jpg",
+    "link": "",
+    "title": "Software engineering"
+  },
+  {
+    "id": 4,
+    "img": "/assets/home/84bdcbe0f17f845abe40d85430b86732.jpg",
+    "link": "",
+    "title": "DevOps"
+  },
+  {
+    "id": 5,
+    "img": "/assets/home/8e59b1d2d4d6582004a119f75c020cd6.jpg",
+    "link": "",
+    "title": "Software engineering"
+  },
+  {
+    "id": 6,
+    "img": "/assets/home/84bdcbe0f17f845abe40d85430b86732.jpg",
+    "link": "",
+    "title": "DevOps"
+  },
+  {
+    "id": 7,
+    "img": "/assets/home/8e59b1d2d4d6582004a119f75c020cd6.jpg",
+    "link": "",
+    "title": "Software engineering"
+  },
+  {
+    "id": 8,
+    "img": "/assets/home/84bdcbe0f17f845abe40d85430b86732.jpg",
+    "link": "",
+    "title": "DevOps"
+  }
+]

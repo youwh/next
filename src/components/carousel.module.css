@@ -1,0 +1,18 @@
+.carousel-wrapper {
+  /* background-color: red; */
+}
+.arrow {
+  border: none;
+  background-color: transparent;
+}
+
+.arrow[disabled] {
+  opacity: 0.5;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  display: block;
+  font-weight: 500;
+}

@@ -1,0 +1,112 @@
+.banner {
+  position: relative;
+  color: var(--primary-color);
+  padding: 50px 10px;
+  overflow: hidden;
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .search-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+    .input {
+      width: 100%;
+      padding: 10px 20px;
+
+      border: 1px solid #cacaca;
+      border-radius: 30px;
+      background: #fff;
+    }
+
+    .button {
+      display: flex;
+      max-width: 150px;
+      padding: 10px 20px;
+      justify-content: center;
+      align-items: center;
+
+      border-style: none;
+      border-radius: 30px;
+      color: #25210e;
+      font-weight: 700;
+      background-color: var(--sub-color1);
+    }
+  }
+}
+
+@media (min-width: 580px) {
+  .banner {
+    padding: 150px 10px;
+    color: var(--primary-color);
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-bg {
+    position: absolute;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .banner {
+    color: white;
+    /* background-color: var(--primary-color); */
+    padding: 0px 0px;
+
+    .content {
+      display: flex;
+      align-items: center;
+      height: 555px;
+      padding-right: 20px;
+    }
+
+    .title {
+      font-size: 48px;
+      margin-block: 30px;
+    }
+
+    .search-input {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+
+      .input {
+        border-radius: 30px 0px 0px 30px;
+        border-top: 1px solid #cacaca;
+        border-bottom: 1px solid #cacaca;
+        border-left: 1px solid #cacaca;
+        background: #fff;
+      }
+
+      .button {
+        width: 100%;
+        border: 1px solid var(--sub-color1);
+        border-radius: 0px 30px 30px 0px;
+        color: #25210e;
+        font-weight: 700;
+        background-color: var(--sub-color1);
+      }
+    }
+
+    .image {
+      border-radius: var(--border-radius);
+      height: 420px;
+      object-fit: cover;
+      object-position: 100% 0;
+    }
+  }
+}

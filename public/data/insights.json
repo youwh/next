@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "date": "25/08/2023",
+    "title": "Top Tips for a stand out CV",
+    "description": "Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.",
+    "image": "/assets/home/cbed89797472d43a079997c557e24910.jpg",
+    "author": {
+      "name": "J. Gonzalez",
+      "avatar": "/assets/home/unsplash_iFgRcqHznqg.png"
+    },
+    "category": "Education",
+    "type": 1,
+    "link": ""
+  },
+  {
+    "id": 1,
+    "date": "25/08/2023",
+    "title": "Gain skills and fast track your career",
+    "description": "Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.",
+    "image": "/assets/home/1b18edf9b7139a04f36e34553d034576.jpg",
+    "author": {
+      "name": "J. Gonzalez",
+      "avatar": "/assets/home/unsplash_iFgRcqHznqg.png"
+    },
+    "category": "Education",
+    "type": 2,
+    "link": ""
+  },
+  {
+    "id": 2,
+    "date": "25/08/2023",
+    "title": "Resources for developers",
+    "description": "Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.",
+    "image": "/assets/home/fd5ad0eaac86090cd81667c99305da50.jpg",
+    "author": {
+      "name": "J. Gonzalez",
+      "avatar": "/assets/home/unsplash_iFgRcqHznqg.png"
+    },
+    "category": "Education",
+    "type": 1,
+    "link": ""
+  },
+  {
+    "id": 3,
+    "date": "25/08/2023",
+    "title": "Resources for developers",
+    "description": "Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.",
+    "image": "/assets/home/818c0d5f5d0f16ab4cdeb1d9a0f87c4e.jpg",
+    "author": {
+      "name": "J. Gonzalez",
+      "avatar": "/assets/home/unsplash_iFgRcqHznqg.png"
+    },
+    "category": "Education",
+    "type": 1,
+    "link": ""
+  },
+  {
+    "id": 4,
+    "date": "25/08/2023",
+    "title": "Resources for developers",
+    "description": "Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.",
+    "image": "/assets/home/ccbc9cc6b8e7d17cdb1949d66097ffd8.jpg",
+    "author": {
+      "name": "J. Gonzalez",
+      "avatar": "/assets/home/unsplash_iFgRcqHznqg.png"
+    },
+    "category": "Education",
+    "type": 2,
+    "link": ""
+  }
+]
