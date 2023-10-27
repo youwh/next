@@ -7,7 +7,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  basePath: '/next',
+  basePath: process.env.NODE_ENV === 'production' ? '/next' : '',
 };
 
 module.exports = nextConfig;
