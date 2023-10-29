@@ -1,13 +1,14 @@
 import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 import { useMediaQuery } from 'usehooks-ts';
+import { basePath } from '~/tempfix';
 import { InsightCard } from './components/InsightCard';
 
 export default function LatestInsights() {
   const { isPending, error, data } = useQuery({
     queryKey: ['insightsData'],
     queryFn: () =>
-      fetch('/data/insights.json')
+      fetch(basePath + '/data/insights.json')
         .then((res) => res.json())
         .then((res) => {
           setModeData(res);

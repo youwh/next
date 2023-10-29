@@ -2,12 +2,13 @@ import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 import { useMediaQuery } from 'usehooks-ts';
 import Carousel from '~/components/Carousel';
+import { basePath } from '~/tempfix';
 import { JobCard } from './components/JobCard';
 
 export default function LatestJobs() {
   const { isPending, error, data } = useQuery({
     queryKey: ['jobsData'],
-    queryFn: () => fetch('/data/jobs.json').then((res) => res.json()),
+    queryFn: () => fetch(basePath + '/data/jobs.json').then((res) => res.json()),
   });
 
   const [perPage, setPerPage] = useState<number>(0);

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { basePath } from '~/tempfix';
 import style from './banner.module.css';
 import { Particles } from './components/particles';
 
@@ -30,7 +31,7 @@ export default function Banner() {
       )}
       {!isMedium && (
         <img
-          src='/assets/home/9e7463bd63b976b8b0101bf9fc4e0467.jpg'
+          src={basePath + '/assets/home/9e7463bd63b976b8b0101bf9fc4e0467.jpg'}
           alt='banner'
           className={style['background-image']}
         />
@@ -50,7 +51,7 @@ export default function Banner() {
           <div className={`col-lg-6 text-end ${style['image-container']}`}>
             {isMedium && (
               <img
-                src='/assets/home/9e7463bd63b976b8b0101bf9fc4e0467.jpg'
+                src={basePath + '/assets/home/9e7463bd63b976b8b0101bf9fc4e0467.jpg'}
                 alt='banner'
                 className={`img-fluid ${style.image}`}
               />

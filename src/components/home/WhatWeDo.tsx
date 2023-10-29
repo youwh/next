@@ -1,3 +1,5 @@
+import { basePath } from '~/tempfix';
+
 export default function WhatWeDo() {
   return (
     <section className='what-we-do py-5'>
@@ -17,7 +19,7 @@ export default function WhatWeDo() {
           </div>
           <div className='col-lg-6 text-center'>
             <img
-              src='/assets/home/ac2de4cd9dcb0714c66d81e5c526e78e.jpg'
+              src={basePath + '/assets/home/ac2de4cd9dcb0714c66d81e5c526e78e.jpg'}
               className='img-fluid'
               alt='Image'
             />

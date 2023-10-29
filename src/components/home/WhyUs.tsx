@@ -1,3 +1,5 @@
+import { basePath } from '~/tempfix';
+
 export default function WhyUs() {
   return (
     <section className='why-us py-5'>
@@ -6,11 +8,15 @@ export default function WhyUs() {
           <div className='col-lg-6 text-center '>
             <button className='vid'>
               <img
-                src='/assets/home/51bdf281c76d73d9d6a484fb91557515.jpg'
+                src={basePath + '/assets/home/51bdf281c76d73d9d6a484fb91557515.jpg'}
                 className='img-fluid image'
                 alt='Image'
               />
-              <img src='/assets/carbon_play-filled.svg' className='play-icon' height={84} />
+              <img
+                src={basePath + '/assets/carbon_play-filled.svg'}
+                className='play-icon'
+                height={84}
+              />
             </button>
           </div>
           <div className='col-lg-6 info'>
